@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TCGDex</RootNamespace>
+    <AssemblyName>TCGDex</AssemblyName>
+
+    <!-- NuGet package version (semver). -->
+    <Version>0.1.0</Version>
+    <PackageVersion>0.1.0</PackageVersion>
+
+    <!-- NuGet package metadata for publishing. -->
+    <PackageId>TCGDex</PackageId>
+    <Title>TCGDex .NET SDK</Title>
+    <Authors>TCGDex</Authors>
+    <Description>Official .NET SDK for the TCGDex API (Pokemon TCG collector database).</Description>
+    <PackageTags>tcgdex;pokemon;tcg;api;cards;collector</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/luizaraujodev/tcgdex-csharp-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/luizaraujodev/tcgdex-csharp-sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <!-- Optional: include symbols for debugging (publish .snupkg to NuGet.org). -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <!-- Include root README in the package so it shows on NuGet.org. -->
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

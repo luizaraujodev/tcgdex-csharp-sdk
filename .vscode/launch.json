@@ -1,0 +1,18 @@
+{
+  // Launch configuration for debugging the TCGDex.Console project
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch TCGDex.Console",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/TCGDex.Console/bin/Debug/net10.0/TCGDex.Console.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/TCGDex.Console",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
+

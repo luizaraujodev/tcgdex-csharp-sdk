@@ -1,0 +1,16 @@
+# Build and NuGet output
+bin/
+obj/
+nupkgs/
+*.nupkg
+*.snupkg
+
+# IDE and OS
+.vs/
+.idea/
+*.user
+.DS_Store
+
+# Test results
+TestResults/
+coverage/
