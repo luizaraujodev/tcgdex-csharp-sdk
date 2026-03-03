@@ -1,6 +1,6 @@
 # TCGDex .NET SDK
 
-.NET SDK for the [TCGDex API](https://api.tcgdex.net/v2) — a REST API for Pokemon TCG collectors.
+.NET SDK for the [TCGDex API](https://tcgdex.dev/) — a REST API for Pokemon TCG collectors.
 
 ## Requirements
 
